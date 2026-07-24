@@ -1,7 +1,29 @@
 aid: beewise
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beewise.png
 name: Beewise
-description: Beewise is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Beewise is an agricultural technology company building the BeeHome, an AI- and
+  robotics-enabled beehive that autonomously monitors, cares for, and protects
+  honeybee colonies to reduce colony loss and deliver reliable pollination.
+  Founded to address bee colony collapse, Beewise combines computer vision,
+  robotics, and cloud software to detect pests and disease, regulate hive climate,
+  and dispatch precision pollination for growers. The company serves growers with
+  guaranteed pollination services, beekeepers with technology-enhanced hive
+  management, and property owners through its Bees for Buildings program. Beewise
+  is a venture-backed company (Insight Partners portfolio) surfaced into the API
+  Evangelist network; it operates a customer grower portal but publishes no public
+  developer API, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/beewise/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Robotics
+- Artificial Intelligence
+- IoT
+- Sustainability
+- Pollination
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.beewise.ag/
+- type: About
+  url: https://beewise.ag/about-us
+- type: Blog
+  url: https://beewise.ag/blog
+- type: Support
+  url: https://beewise.ag/contact
+- type: SignUp
+  url: https://beewise.ag/get-started
+- type: Login
+  url: https://grower.beewise.ag/signin
+- type: PrivacyPolicy
+  url: https://beewise.ag/privacy
+- type: TermsOfService
+  url: https://beewise.ag/terms-and-conditions
+- type: DomainSecurity
+  url: security/beewise-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
